@@ -1,0 +1,357 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 1",
+        "jumlah_kasus": 12,
+        "foto": "/images/posyandu/posyandu-rw-1.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90199080142918,
+          -6.9106571592335655
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 2",
+        "jumlah_kasus": 12,
+        "foto": "/images/posyandu/posyandu-rw-2.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90309770419117,
+          -6.9092479490345085
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 3",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-3.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90393587520015,
+          -6.9073116200499385
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 4",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-4.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90209150948562,
+          -6.906152382860725
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 5",
+        "jumlah_kasus": 10,
+        "foto": "/images/posyandu/posyandu-rw-5.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90075355790151,
+          -6.905674923233846
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 6",
+        "jumlah_kasus": "tidak ada data",
+        "foto": "/images/posyandu/posyandu-rw-6.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90194786437746,
+          -6.902108838943747
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 7",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-7.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90315122521957,
+          -6.899625438049867
+        ],
+        "type": "Point"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 8",
+        "jumlah_kasus": 10,
+        "foto": "/images/posyandu/posyandu-rw-8.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90542033255042,
+          -6.901230276189011
+        ],
+        "type": "Point"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 9",
+        "jumlah_kasus": 12,
+        "foto": "/images/posyandu/posyandu-rw-9.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90365605516416,
+          -6.894205712824032
+        ],
+        "type": "Point"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 10",
+        "jumlah_kasus": 12,
+        "foto": "/images/posyandu/posyandu-rw-10.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.9049777707383,
+          -6.8934937524802535
+        ],
+        "type": "Point"
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "posyandu rw 11",
+        "jumlah_kasus": 0,
+        "foto": "/images/posyandu/posyandu-rw-11.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90886311678514,
+          -6.898646794180877
+        ],
+        "type": "Point"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 12",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-12.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90927354332831,
+          -6.892069276696034
+        ],
+        "type": "Point"
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 13",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-13.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90881175894282,
+          -6.885916477725857
+        ],
+        "type": "Point"
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 14",
+        "jumlah_kasus": 3,
+        "foto": "/images/posyandu/posyandu-rw-14.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.91135863389883,
+          -6.884421930692909
+        ],
+        "type": "Point"
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 15",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-15.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.91327711063502,
+          -6.883164185994389
+        ],
+        "type": "Point"
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 17",
+        "jumlah_kasus": 19,
+        "foto": "/images/posyandu/posyandu-rw-17.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.91393607647643,
+          -6.88629331751828
+        ],
+        "type": "Point"
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 16",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-16.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.91459245013368,
+          -6.884422840763946
+        ],
+        "type": "Point"
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 18",
+        "jumlah_kasus": 9,
+        "foto": "/images/posyandu/posyandu-rw-18.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.91350134866332,
+          -6.8892971247843064
+        ],
+        "type": "Point"
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 19",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-19.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.91357126650684,
+          -6.892374807412736
+        ],
+        "type": "Point"
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 20",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-20.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90762308224788,
+          -6.906636198613569
+        ],
+        "type": "Point"
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 22",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-22.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.90334390239713,
+          -6.905339268004354
+        ],
+        "type": "Point"
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Posyandu rw 21",
+        "jumlah_kasus": "-",
+        "foto": "/images/posyandu/posyandu-rw-21.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          106.9067926335972,
+          -6.911291176872666
+        ],
+        "type": "Point"
+      },
+      "id": 21
+    }
+  ]
+}
