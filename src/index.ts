@@ -16,11 +16,12 @@ async function init() {
     // Konfigurasi CORS
     const corsOptions = {
       origin: [
-        "http://localhost:3000", // untuk development
-        "https://sipeting.vercel.app/" // untuk production
+        "http://localhost:5173", // untuk development
+        "https://sipeting.vercel.app" // untuk production
       ],
-      methods: ["GET", "POST", "PUT", "DELETE"], // Allowed HTTP methods
+      methods: ["GET", "POST", "PUT", "DELETE"],
       allowedHeaders: ["Content-Type", "Authorization"], // Allowed request headers
+      credentials: true,
     };
 
     app.use(cors(corsOptions));

@@ -1,4 +1,0 @@
-let pass = "SipetingPro1";
-
-let encodedPass = encodeURIComponent(pass);
-console.log(encodedPass);
