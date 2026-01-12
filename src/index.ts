@@ -9,30 +9,28 @@ import helmet from "helmet";
 async function init() {
   try {
     const result = await db();
-    console.log(`Database Status : ${result}`);
-
     const app = express();
 
-    // Konfigurasi CORS
+    // 1. Pindahkan express.json() ke ATAS sebelum route apapun
+    app.use(express.json()); 
+
+    // 2. Konfigurasi CORS (Sudah bagus)
     const corsOptions = {
-      origin: [
-        "http://localhost:5173", // untuk development
-        "https://sipeting.vercel.app" // untuk production 
-      ],
+      origin: ["http://localhost:5173", "https://sipeting.vercel.app"],
       methods: ["GET", "POST", "PUT", "DELETE"],
-      allowedHeaders: ["Content-Type", "Authorization"], // Allowed request headers
+      allowedHeaders: ["Content-Type", "Authorization"],
       credentials: true,
     };
-
     app.use(cors(corsOptions));
 
-    // Konfigurasi Helmet dengan CSP
+    // 3. Konfigurasi Helmet (Tambahkan connect-src untuk API Google)
     app.use(
       helmet({
         contentSecurityPolicy: {
           directives: {
             "default-src": ["'self'"],
             "script-src": ["'self'", "'unsafe-inline'"],
+            "connect-src": ["'self'", "https://generativelanguage.googleapis.com"], // Izinkan akses ke Gemini
             "img-src": [
               "'self'",
               "data:",
@@ -46,14 +44,11 @@ async function init() {
       })
     );
 
+    // 4. Routes
     app.get("/", (req, res) => {
-      res.status(200).json({
-        message: "success hit endpoint",
-        data: "OK",
-      });
+      res.status(200).json({ message: "success", data: "OK" });
     });
 
-    app.use(express.json());
     app.use("/api", router);
 
     app.listen(PORT, () => {
@@ -62,6 +57,6 @@ async function init() {
   } catch (error) {
     console.log(error);
   }
-}
+};
 
-init();
+init()
